@@ -24,7 +24,6 @@ class QuoteBookFragment : Fragment() {
     ): View? {
         val binding = FragmentQuoteBookBinding.inflate(inflater)
 
-        binding.photosGrid.layoutManager = LinearLayoutManager(requireContext())
         binding.lifecycleOwner = this
 
         binding.viewModel = viewModel

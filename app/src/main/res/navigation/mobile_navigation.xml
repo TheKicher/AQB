@@ -12,7 +12,7 @@
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/ic_quote_book"
-        android:name="com.k1ch.aqb.ui.fragment.QuoteFragment"
-        android:label="QuoteFragment" />
+        android:name="com.k1ch.aqb.ui.fragment.QuoteBookFragment"
+        android:label="QuoteBookFragment" />
 
 </navigation>
