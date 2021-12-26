@@ -11,14 +11,6 @@ import com.k1ch.aqb.R
 
 class MainActivity : AppCompatActivity() {
 
-
-
- //   private val homeFragment = HomeFragment()
-  //  private val quoteFragment = QuoteFragment()
-
-
-
-
         override fun onCreate(savedInstanceState: Bundle?) {
             super.onCreate(savedInstanceState)
             setContentView(R.layout.activity_main)
@@ -27,13 +19,11 @@ class MainActivity : AppCompatActivity() {
             val navView: BottomNavigationView = findViewById(R.id.bottom_navigation)
 
             val navController = findNavController(R.id.nav_host_fragment_activity_main)
-            // Passing each menu ID as a set of Ids because each
-            // menu should be considered as top level destinations.
+
 
                 setOf(
                     R.id.ic_home, R.id.ic_quote_book,
                 )
-
 
             navView.setupWithNavController(navController)
         }
